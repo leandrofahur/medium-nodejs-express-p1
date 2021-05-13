@@ -12,7 +12,9 @@
       "program": "${workspaceFolder}/index.js",
       "restart": true,
       "runtimeExecutable": "nodemon",
-      "console": "integratedTerminal"
+      "console": "integratedTerminal",
+      "cwd": "${workspaceFolder}",
+      "runtimeArgs": ["run-scrpt", "debug"]
     }
   ]
 }
